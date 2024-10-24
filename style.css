@@ -1,0 +1,107 @@
+.vid{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.heading{
+    text-align: center;
+    font-size: 80px;
+    color: rgba(0, 253, 223, 0.883);
+}
+.in{
+   border-radius: 40px;
+   height:5vh;
+   width: 40vw;
+   font-size:23px;
+}
+.add{
+    background-color: aquamarine;
+    width:10vw;
+    height:6vh;
+    border-radius: 40px;
+    font-size: 30px;
+    margin-left:20px;
+}
+.del{
+    width:5vw;
+    height:5vh;
+    background-color:aquamarine;
+    border-radius: 40px;
+    margin-left:70vw;
+}
+li{
+    font-size: 35px;
+    list-style: none;
+    color: white;
+    margin-left: 20px;
+}
+.box{
+    text-align: center;
+    border-color:rgba(0, 0, 0, 0);
+    border-width:1px;
+    border-style: solid;
+    width:80vw;
+    background-color:rgba(0, 0, 0, 0.157);
+}
+.fa-clipboard-list{
+    color: rgb(7, 249, 245);
+}
+.date{
+    margin-left:40vw;
+    width:100px;
+    background-color:rgb(252, 147, 165);
+    height:30px;
+}
+.time{
+    margin-left: 20px;
+    background-color:rgb(252, 147, 165) ;
+}
+.dt{
+    width:15vw;
+    height:5vh ;
+    border-radius: 40px;
+    margin-left: 20px;
+    font-size:20px;
+}
+.due{
+    color: rgb(0, 115, 255);
+    margin-left:30vw;
+}
+.date{
+    border-width: 1px;
+    width:30vw;
+    height: 20vh;
+    border-style: solid;
+    background-color: transparent;
+    margin-left:70vw;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    border-color:transparent;
+
+}
+.add:hover{
+    cursor: pointer;
+    box-shadow:5px 5px;
+}
+.datee{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 28px;
+    margin-right: 10vw;
+    color: blue;
+}
+.time{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    font-size: 28px;
+    
+    background-color:transparent;
+    color: blue;
+    
+}
