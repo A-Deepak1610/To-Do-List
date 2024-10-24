@@ -67,7 +67,7 @@ li{
     font-size:20px;
 }
 .due{
-    color: rgb(0, 115, 255);
+    color: rgb(0, 114, 244);
     margin-left:30vw;
 }
 .date{
@@ -93,15 +93,15 @@ li{
     right: 0px;
     font-size: 28px;
     margin-right: 10vw;
-    color: blue;
+    color: rgb(250, 218, 8);
 }
 .time{
     position: absolute;
     top: 30px;
     right: 0px;
     font-size: 28px;
-    
+    left:47px;
     background-color:transparent;
-    color: blue;
+    color: rgb(250, 218, 8);
     
 }
