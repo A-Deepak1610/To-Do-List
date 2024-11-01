@@ -109,3 +109,12 @@ li{
     width:3vw;
     height:3vh;
 }
+.edit{
+    top: 0px;
+    width:5vw ;
+    height:5vh;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(248, 28, 28);
+    margin-left: 20px;
+}
