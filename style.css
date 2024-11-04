@@ -67,6 +67,7 @@ li{
     font-size:20px;
 }
 .due{
+    margin-top: 30px;
     color: rgb(0, 114, 244);
     margin-left:30vw;
 }
@@ -117,4 +118,22 @@ li{
     font-size: 20px;
     background-color: rgb(248, 28, 28);
     margin-left: 20px;
+}
+#editTaskText{
+    height: 4vh;
+    width: 25vw;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.save{
+    margin-bottom: 10px;
+    height: 3vh;
+    width: 5vw;
+    background-color: aqua;
+    border-radius: 10px;
+}
+#editDueDate{
+    height: 4vh;
+    width: auto;
+    border-radius: 25px;
 }

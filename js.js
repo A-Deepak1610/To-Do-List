@@ -35,21 +35,19 @@ function line(event) {
 }
 function editt(event){
     var listItem = event.target.parentElement;
-    console.log(listItem)
     var taskText = listItem.childNodes[1].textContent;
     var dueDateText = listItem.querySelector(".due").nextSibling.textContent.trim();
     listItem.innerHTML = "<input type='checkbox' id='cb' onclick='line(event)'>"
                         + "<input type='text' id='editTaskText' value='" + taskText + "'>"
                         + "<span class='due'> Due: </span>"
-                        + "<input type='date' id='editDueDate' value='" + (dueDateText !== "No date set" ? dueDateText : "") + "'>"
-                        + "<button onclick='saveEdit(this)'>Save</button>"
+                        + "<input type='datetime-local' id='editDueDate' value='" + (dueDateText !== "No date set" ? dueDateText : "") + "'>"
+                        + "<button class='save' onclick='saveEdit(this)'>Save</button>"
                         + "<button class='del' onclick='del(event)'>Delete</button>";
 }
 function saveEdit(button) {
     var listItem = button.parentElement;
     var newTaskText = document.getElementById('editTaskText').value;
     var newDueDate = document.getElementById('editDueDate').value || "No date set";
-
     listItem.innerHTML = "<input type='checkbox' id='cb' onclick='line(event)'>"
                         + newTaskText
                         + "<span class='due'> Due: </span>"
