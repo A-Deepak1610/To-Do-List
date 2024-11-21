@@ -18,12 +18,12 @@ function del(event){
 }
 function updateDateTime() {
     const now = new Date();
-    const currentDateTime = now.toDateString();
-    const timee=now.toTimeString()
+    const currentDateTime = now.toLocaleString();
+    const timee=now.toTimeString();
     document.querySelector('#datetime').textContent = "Date:"+currentDateTime;
-    document.querySelector("#tm").textContent ="Time"+timee;
+    // document.querySelector("#tm").textContent ="Time"+timee;
   }
-setInterval(updateDateTime, 1000);
+setInterval(updateDateTime,1000);
 function line(event) {
     var checkbox= event.target;
     var listItem = checkbox.parentElement;

@@ -9,17 +9,17 @@
 .heading{
     text-align: center;
     font-size: 80px;
-    color: rgba(0, 253, 223, 0.883);
+    color: rgba(29, 210, 231, 0.883);
 }
 .in{
-   border-radius: 40px;
+   border-radius:10px;
    height:5vh;
    width: 40vw;
    font-size:23px;
 }
 .add{
     background-color: aquamarine;
-    width:10vw;
+    width:8vw;
     height:6vh;
     border-radius: 40px;
     font-size: 30px;
@@ -28,9 +28,10 @@
 .del{
     width:5vw;
     height:5vh;
+    font-size: 15px;
     background-color:aquamarine;
     border-radius: 40px;
-    margin-left:70vw;
+    margin-left:1vw;
 }
 li{
     font-size: 35px;
@@ -47,10 +48,10 @@ li{
     background-color:rgba(0, 0, 0, 0.157);
 }
 .fa-clipboard-list{
-    color: rgb(7, 249, 245);
+    /* color: rgba(249, 172, 85, 0.883); */
 }
 .date{
-    margin-left:40vw;
+    margin-left:45vw;
     width:100px;
     background-color:rgb(252, 147, 165);
     height:30px;
@@ -62,14 +63,14 @@ li{
 .dt{
     width:15vw;
     height:5vh ;
-    border-radius: 40px;
+    border-radius: 10px;
     margin-left: 20px;
     font-size:20px;
 }
 .due{
     margin-top: 30px;
     color: rgb(0, 114, 244);
-    margin-left:30vw;
+    margin-left:5vw;
 }
 .date{
     border-width: 1px;
@@ -89,11 +90,11 @@ li{
     box-shadow:5px 5px;
 }
 .datee{
-    position: absolute;
+    /* position: absolute; */
     top: 0px;
     right: 0px;
     font-size: 28px;
-    margin-right: 10vw;
+    margin-left: 15vw;
     color: rgb(250, 218, 8);
 }
 .time{
@@ -111,12 +112,12 @@ li{
     height:3vh;
 }
 .edit{
-    top: 0px;
+    /* top: 0px; */
     width:5vw ;
     height:5vh;
     border-radius: 20px;
-    font-size: 20px;
-    background-color: rgb(248, 28, 28);
+    font-size: 15px;
+    background-color: aquamarine;
     margin-left: 20px;
 }
 #editTaskText{
@@ -127,9 +128,10 @@ li{
 }
 .save{
     margin-bottom: 10px;
-    height: 3vh;
-    width: 5vw;
-    background-color: aqua;
+    margin-left: 20px;
+    height: 5vh;
+    width: 6vw;
+    background-color: rgb(241, 114, 72);
     border-radius: 15px;
 }
 #editDueDate{
