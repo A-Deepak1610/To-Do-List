@@ -16,6 +16,7 @@
    height:5vh;
    width: 40vw;
    font-size:23px;
+   cursor: pointer;
 }
 .add{
     background-color: aquamarine;
@@ -26,6 +27,7 @@
     margin-left:20px;
 }
 .del{
+    cursor: pointer;
     width:5vw;
     height:5vh;
     font-size: 15px;
@@ -34,7 +36,7 @@
     margin-left:1vw;
 }
 li{
-    font-size: 35px;
+    font-size: 30px;
     list-style: none;
     color: white;
     margin-left: 20px;
@@ -47,9 +49,6 @@ li{
     width:80vw;
     background-color:rgba(0, 0, 0, 0.157);
 }
-.fa-clipboard-list{
-    /* color: rgba(249, 172, 85, 0.883); */
-}
 .date{
     margin-left:45vw;
     width:100px;
@@ -61,6 +60,7 @@ li{
     background-color:rgb(252, 147, 165) ;
 }
 .dt{
+    cursor: pointer;
     width:15vw;
     height:5vh ;
     border-radius: 10px;
@@ -68,11 +68,14 @@ li{
     font-size:20px;
 }
 .due{
+    cursor: pointer;
     margin-top: 30px;
     color: rgb(0, 114, 244);
     margin-left:5vw;
+    font-size: 35px;
 }
 .date{
+    cursor: pointer;
     border-width: 1px;
     width:30vw;
     height: 20vh;
@@ -90,6 +93,7 @@ li{
     box-shadow:5px 5px;
 }
 .datee{
+    
     /* position: absolute; */
     top: 0px;
     right: 0px;
@@ -112,6 +116,7 @@ li{
     height:3vh;
 }
 .edit{
+    cursor: pointer;
     /* top: 0px; */
     width:5vw ;
     height:5vh;
